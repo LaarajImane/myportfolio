@@ -20,13 +20,10 @@ export const Bio = {
   description:
 
     "Welcome to my professional portfolio. I am a motivated and versatile individual, always eager to take on new challenges . I am a dedicated web developer passionate about crafting seamless user experiences and integrating innovative artificial intelligence solutions.",
-  github: "https://github.com/imane-creator",
+  github: "https://github.com/LaarajImane",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://drive.google.com/file/d/1AMEbkeUDOUpw5RIve_TCfWU22S3Glc77/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/imane-laaraj22/",
 };
 
 export const skills = [
@@ -213,49 +210,37 @@ export const skills = [
       {
         name: "IntelliJ IDEA",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/1f/IntelliJ_IDEA_Icon.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1c/IntelliJ_IDEA_Icon.svg",
       },
     ],
   },
 ];
 
 export const experiences = [
+   
   {
     id: 0,
-    img: "https://th.bing.com/th/id/OIP.d3izGEdphTKI-lQpQ52KQgHaD9?w=80&h=80&c=1&bgcl=5a70fe&r=0&o=7&cb=thwsc5&pid=ImgRC&rm=3",
-    company: "Alidantek",
-    date: "Final Year Internship | 2023",
-    desc: "Developed a web application for automated diagnostics to help companies assess their employees efficiently.",
-    skills: [
-      "Next.js",
-      "Express.js",
-      "JavaScript",
-      "Web Development",
-      "Frontend & Backend"
-    ],
-  },  
-  {
-    id: 1,
     img: "https://th.bing.com/th/id/OIP.K_5TQlKbuvx26E0KkU-1oAAAAA?w=80&h=80&c=1&bgcl=ec2144&r=0&o=7&cb=thwsc5&pid=ImgRC&rm=3", // tu peux remplacer par le logo de Stryve Maroc
     role: "AI & Software Engineering Intern",
     company: "Stryve Maroc",
     date: "2025",
-    desc: "Leveraged AI in a cloud platform to extract content and features from uploaded files, implement intelligent file classification , and integrate a smart chatbot for enhanced file interaction.",
+    desc: "In 2025, I worked with Stryve Maroc on the development of an AI-powered cloud platform aimed at transforming how users interact with and retrieve information from their uploaded files. The project utilized Artificial Intelligence to extract key content and features from documents, enabling a deeper understanding of file structure and context. A core component of the system was the implementation of an intelligent search engine capable of interpreting user queries semantically to locate relevant information within files quickly and accurately. Additionally, I contributed to the integration of a smart chatbot that allowed users to engage in natural language conversations with their files—asking questions, requesting summaries, or retrieving specific insights in real time",
     skills: [
       "Laravel",
       "PHP",
       "Artificial Intelligence",
-      "Cloud Platform",
+      "Chatbot Development",
       "AI-powered Automation"
     ],
-  },  
+  }, 
+  
   {
     id: 2,
     img: "https://www.3dsmartfactory.csit.ma/images/1st-logo.png", // remplacer par le logo de 3D Factory Maroc
     role: "AI & Fullstack Development Intern",
     company: "3D Factory Maroc",
     date: "2025",
-    desc: "Developed an intelligent medical appointment assistant. Users input their location and medical needs (specialty, urgency), and the system uses a database of medical centers to suggest the best available slots based on proximity, urgency, and real availability. The platform also provides preliminary advice for critical situations and sends notifications and reminders via email and app/browser.",
+    desc: "In 2025, I contributed to the development of an intelligent medical appointment assistant at 3D Factory Maroc, aimed at improving access to healthcare through smart digital solutions. The platform allows users to input their location and medical needs (such as specialty or name of doctor), then leverages a database of medical centers to recommend the most suitable appointments based on proximity, real-time availability, and priority level. From a technical perspective, the project was built using Spring Boot for the backend and Angular for the frontend, ensuring a scalable, secure, and user-friendly architecture. The integration of geocoding and mapping APIs enabled precise location-based search, while an AI-powered chatbot provided patients with interactive assistance and personalized guidance.",
     skills: [
       "Spring Boot",
       "Angular",
@@ -264,6 +249,20 @@ export const experiences = [
       "Fullstack Development"
     ],
   },
+  {
+    id: 1,
+    img: "https://th.bing.com/th/id/OIP.d3izGEdphTKI-lQpQ52KQgHaD9?w=80&h=80&c=1&bgcl=5a70fe&r=0&o=7&cb=thwsc5&pid=ImgRC&rm=3",
+    company: "Alidantek",
+    date: "Final Year Internship | 2023",
+    desc: "As part of my academic journey, I had the opportunity to complete a two-month internship at Alidantek, where I contributed to the development of a web application for automated diagnostics designed to help companies efficiently assess the skills and performance of their employees. The project’s main goal was to create an administrative dashboard that enables company administrators to design and manage customized quizzes to evaluate competencies, generate detailed analytics, and provide employees with personalized feedback highlighting their strengths and areas for improvement.",
+    skills: [
+      "Next.js",
+      "Express.js",
+      "JavaScript",
+      "Web Development",
+      "Frontend & Backend"
+    ],
+  }, 
 
 ];
 
@@ -313,7 +312,7 @@ export const projects = [
     title: "Smart Attendance Mobile App",
     date: "2024",
     description:
-      "Developed an intelligent mobile application to automate student attendance management using facial recognition technology.",
+    "To address the challenges of manual attendance tracking in universities—such as time consumption, human errors, and lack of integration with academic systems—we designed an intelligent mobile application that automates student attendance management through facial recognition technology. This solution allows the system to automatically detect and record student presence in real time, eliminating the need for paper-based or manual entry methods. It also includes dedicated interfaces for both administrators and instructors, enabling efficient management of academic structures such as departments, modules, and teaching staff. By integrating artificial intelligence and mobile technologies, the platform ensures faster, more reliable, and more secure attendance tracking while improving data accuracy and reducing administrative workload.",
     image: MobileAppImg, // remplacer par image réelle
     tags: ["Android (Kotlin)", "Python", "OpenCV", "LBPH", "Face Recognition"],
     category: "android app",
@@ -325,7 +324,7 @@ export const projects = [
     title: "Final Year Internship Web App | Alidantek",
     date: "2025",
     description:
-      "Created a web application for automated diagnostics to help companies evaluate their employees efficiently.",
+    "I created a web application for automated diagnostics that enables companies to efficiently evaluate their employees’ skills and performance through interactive and data-driven assessments. The platform provides an admin interface where company managers can design customized quizzes, define evaluation criteria, and generate detailed reports highlighting each employee’s strengths and areas for improvement. By combining Next.js for the frontend and Express.js for the backend, the application delivers a smooth and dynamic user experience while ensuring secure data management. This project enhanced my expertise in full-stack web development and AI-assisted analysis, demonstrating my ability to build intelligent solutions that improve organizational decision-making and employee development.",
     image: BachelorApp,
     tags: ["Next.js", "Express.js", "JavaScript", "Web Development"],
     category: "web app",
@@ -337,7 +336,7 @@ export const projects = [
     title: "FAQ Chatbot",
     date: "2025",
     description:
-      "Developed a chatbot capable of answering frequently asked questions (FAQ) on specific topics or products using NLP techniques.",
+    "I developed an intelligent FAQ chatbot designed to provide instant and accurate answers to users’ questions about specific topics or products by leveraging Natural Language Processing (NLP) techniques. The chatbot is capable of understanding user intent, extracting key information from queries, and delivering context-aware responses in real time. Built with a focus on user experience, it offers a natural and conversational interface that improves accessibility and reduces the need for manual customer support. Through the integration of NLP models and an optimized knowledge base, the system continuously learns and refines its responses to ensure higher accuracy and relevance over time. This project strengthened my skills in AI-driven dialogue systems, language understanding, and intelligent automation, showcasing my ability to combine technical innovation with user-centered design.",
     image: ChatbotImg,
     tags: ["Django", "NLP", "SpaCy", "Python", "AI"],
     category: "ai app",
@@ -349,7 +348,7 @@ export const projects = [
     title: "Fall Detection Mobile App",
     date: "2025",
     description:
-      "Developed an intelligent mobile application capable of detecting human falls in real-time video streams.",
+    " With the rapid aging of the population, falls have become one of the most common and dangerous domestic accidents among the elderly, often leading to serious injuries, loss of autonomy, and high hospitalization costs. Existing solutions remain limited, as manual supervision is costly and difficult to sustain over long periods. This project aimed to develop an intelligent mobile application that provides a non-intrusive, real-time system capable of detecting falls automatically, without requiring constant human monitoring. The solution combines computer vision and machine learning techniques to analyze live video streams and detect abnormal behavior indicative of a fall. The system uses a camera to monitor the environment in real time, applies image processing to enhance video quality and extract relevant features, and employs a pose estimation model to analyze human posture. When a fall is detected, the application automatically triggers an alert to notify caregivers or responsible personnel, thereby enhancing the safety and autonomy of elderly individuals.",
     image: FallImg,
     tags: ["Python", "Mediapipe", "OpenCV", "WebSocket", "Kotlin"],
     category: "android app",
@@ -362,8 +361,8 @@ export const projects = [
     date: "2025",
     description:
       "Developed and deployed a tool that converts audio recordings into text efficiently.",
-    image: "https://via.placeholder.com/350x200",
-    tags: ["Spring Boot", "Spring AI", "React", "Java", "Web App"],
+      image: "https://imgs.search.brave.com/3fZP234vYWju1ok6aK5sfVXtERb-sTv0GYrAI61QW38/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMy/OTcyMjAyMi92ZWN0/b3IvcG9kY2FzdC1h/dWRpby13YXZlcy1i/YWNrZ3JvdW5kLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1p/Z05XYUpuQjlJOGJu/QXc1dmtUOV96VmE0/M3JySU41Uk14am00/eFNuRldrPQ",
+      tags: ["Spring Boot", "Spring AI", "React", "Java", "Web App"],
     category: "web app",
     github: "#",
     webapp: "#",
