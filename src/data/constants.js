@@ -22,7 +22,7 @@ export const Bio = {
     "Welcome to my professional portfolio. I am a motivated and versatile individual, always eager to take on new challenges . I am a dedicated web developer passionate about crafting seamless user experiences and integrating innovative artificial intelligence solutions.",
   github: "https://github.com/LaarajImane",
   resume:
-    "https://drive.google.com/file/d/1AMEbkeUDOUpw5RIve_TCfWU22S3Glc77/view?usp=sharing",
+    "https://drive.google.com/file/d/1EH4pAatcWM5RTPBIK-pRa2GT8dhj-vT1/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/imane-laaraj22/",
 };
 
